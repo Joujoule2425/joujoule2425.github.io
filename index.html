@@ -1,8 +1,135 @@
-<html>
-   <head>
-<title> CIMPA sample Webpage</title>
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Your Name">
+    <title>Your Name - Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0066cc;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #0066cc;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+    </style>
+</head>
 <body>
-hello World.
+
+<header>
+    <h1>Your Name</h1>
+    <p>Scientist in Enumerative and Analytic Combinatorics</p>
+</header>
+
+<nav>
+    <a href="#cv">CV</a>
+    <a href="#research">Research Interests</a>
+    <a href="#publications">Publications</a>
+    <a href="#talks">Talks</a>
+</nav>
+
+<div class="container">
+
+    <!-- CV Section -->
+    <section id="cv">
+        <h2>Curriculum Vitae</h2>
+        <p><strong>Name:</strong> Your Full Name</p>
+        <p><strong>Email:</strong> your.email@example.com</p>
+        <p><strong>Phone:</strong> +123 456 789</p>
+        <p><strong>Education:</strong> 
+            <br> Ph.D. in Combinatorics, University Name, Year
+            <br> M.Sc. in Mathematics, University Name, Year
+            <br> B.Sc. in Mathematics, University Name, Year
+        </p>
+        <p><strong>Current Position:</strong> Assistant Professor, Department of Mathematics, University Name</p>
+    </section>
+
+    <!-- Research Interests Section -->
+    <section id="research">
+        <h2>Research Interests</h2>
+        <ul>
+            <li>Enumerative combinatorics: counting problems, generating functions, partition theory.</li>
+            <li>Analytic combinatorics: asymptotics of combinatorial objects, singularity analysis.</li>
+            <li>Applications of combinatorics in computer science, algorithms, and data structures.</li>
+            <li>Random structures and probabilistic combinatorics.</li>
+        </ul>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications">
+        <h2>Publications</h2>
+        <ol>
+            <li>Author 1, Author 2, "Title of Paper", Journal Name, Year.</li>
+            <li>Author 1, Author 2, "Title of Paper", Conference Name, Year.</li>
+            <li>Author 1, Author 2, "Title of Paper", Journal Name, Year.</li>
+            <li>Author 1, "Title of Paper", Book Chapter, Publisher, Year.</li>
+        </ol>
+    </section>
+
+    <!-- Talks Section -->
+    <section id="talks">
+        <h2>Talks</h2>
+        <ul>
+            <li>"Title of Talk", Conference or Workshop Name, Location, Year.</li>
+            <li>"Title of Talk", Seminar at Institution Name, Year.</li>
+            <li>"Title of Talk", Invited Talk at Event Name, Year.</li>
+        </ul>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2025 Your Name | All Rights Reserved</p>
+</footer>
+
 </body>
 </html>
+
